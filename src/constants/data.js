@@ -18,34 +18,34 @@ const animals = {
       id: 3,
       breed: "Golden Retriever",
       name: "Cooper",
-      image: "https://i.imgur.com/FBcGdUn.png",
+      image: "https://i.imgur.com/FBcGdUn.jpg",
       human: "Nick"
     }
   ],
   cats: [
     {
-      id: 3,
+      id: 4,
       personality: "has a triangle nose perfect for booping",
       name: "Juliabeast",
       image: "https://i.imgur.com/8PjaghN.jpg",
       human: "Casi"
     },
     {
-      id: 4,
+      id: 5,
       personality: "too smart for her own good",
       name: "Catniss",
       image: "https://i.imgur.com/HY6XJLo.jpg",
       human: "Casi"
     },
     {
-      id: 5,
+      id: 6,
       personality: "likes warming his rear on technology",
       name: "Bingo",
       image: "http://i.imgur.com/ntz2sQe.jpg",
       human: "AmyLynn"
     },
     {
-      id: 6,
+      id: 7,
       personality: "likes mobile tech",
       name: "Storrow",
       image: "http://i.imgur.com/oSr7eBY.jpg",

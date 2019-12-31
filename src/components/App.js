@@ -1,22 +1,14 @@
-import React from 'react';
-
-import DogSection from './DogSection'
-import CatSection from './CatSection'
+import React from "react";
+import FloofSection from "./FloofSection";
 
 const App = props => {
-  return(
-    <div className="app">
-      <h1>Place Fluffballs here</h1>
-
-      <DogSection
-        dogsInfo={props.animals.dogs}
-      />
-
-      <CatSection
-        catsInfo={props.animals.cats}
-      />
+  return (
+    <div>
+      <h1> Floofs of Launch </h1>
+      <FloofSection floofs={props.animals.dogs} floofType="Dog" />
+      <FloofSection floofs={props.animals.cats} floofType="Cat" />
     </div>
-  )
-}
+  );
+};
 
 export default App;
